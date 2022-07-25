@@ -11,9 +11,9 @@ gem "filenames_set"
 
 ## Usage
 ```
-filenames_set = FilenamesSet.new
-result = filenames_set << "example.pdf"
+filenames = FilenamesSet.new
+result = filenames << "example.pdf"
 result # => "example.pdf"
-result = filenames_set << "example.pdf"
+result = filenames << "example.pdf"
 result # => "example-2.pdf"
 ```
